@@ -1,0 +1,42 @@
+*{
+  margin:0;
+  padding:0;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+    background-color: #efeded;
+} 
+input[type=text] {
+  font-family: 'Work Sans', sans-serif;
+  width: 100%;
+  background:none;
+  padding: 10px 20px;
+  font-size: 50px;
+  box-sizing: border-box;
+  border: none;
+  color:black;
+  border-bottom: 2px solid black;
+}
+input:focus {
+  font-family: 'Work Sans', sans-serif;
+  outline: none;
+  color:black;
+  border-bottom:2px solid black;
+}
+
+::placeholder { 
+  font-family: 'Work Sans', sans-serif;
+  color:black;
+}
+
+.lists{
+  font-family: 'Work Sans', sans-serif;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 50px;
+  background:yellow;
+  box-sizing: border-box;
+  border: none;
+  color:black;
+  border-bottom: 2px solid black;
+}
